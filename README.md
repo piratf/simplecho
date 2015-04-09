@@ -2,7 +2,7 @@ Simplecho
 ========
 Theme for [Hexo](http://hexo.io). 
 
-Demo: http://garwih.github.io/hexo-theme-simplecho/
+Demo: http://piratf.ml/
 
 ##Install
 修改 Hexo 根目录下 _config.yml 里面的 `theme` 为 `simplecho`
