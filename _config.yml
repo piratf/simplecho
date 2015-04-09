@@ -1,0 +1,14 @@
+# Header
+menu:
+  piratf: /
+  归档: /archives
+rss: /atom.xml
+favicon: /favicon.png
+subtitle_show: true
+
+# Main
+duoshuo_shortname: piratf
+duoshuo_home: true
+
+#### Analytics  
+cnzz: true 
