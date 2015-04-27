@@ -2,9 +2,14 @@
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #002b36;
+  background: #001C35;
   color: #839496;
   -webkit-text-size-adjust: none;
+
+  /*highlightBlockIn*/
+  box-shadow:inset 9px 0px 27px 16px #00061C;
+  -moz-box-shadow:inset 9px 0px 27px 16px #00061C;
+  -webkit-box-shadow: inset 9px 0px 27px 16px #00061C;
 }
 
 .comment,
@@ -25,7 +30,7 @@
 .request,
 .status,
 .nginx .title {
-  color: #859900;
+  color: #EDEF7D;
 }
 
 /* Solarized Cyan */
@@ -53,7 +58,7 @@
 .vhdl .literal,
 .id,
 .css .function {
-  color: #268bd2;
+  color: #FFB054;
 }
 
 /* Solarized Yellow */

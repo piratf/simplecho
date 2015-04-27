@@ -2,6 +2,7 @@
 menu:
   piratf: /
   归档: /archives
+  # 实验室: /_special
 rss: /atom.xml
 favicon: /favicon.png
 subtitle_show: true

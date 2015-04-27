@@ -220,7 +220,7 @@ abbr{
 html,body{
     height: 100%;
     color: #666;
-    background-color: #f2f2f2;
+    background-color: #00061C;
 }
 
 #header,#main,#footer{    
@@ -324,7 +324,7 @@ html,body{
 
 #logo{
   text-align: center;
-  background: url(http://7teaeb.com1.z0.glb.clouddn.com/blog02.jpg) no-repeat center center;
+  background: url(http://7teaeb.com1.z0.glb.clouddn.com/bg_bg2.png) no-repeat center center;
   background-size: cover;
   width: 1000px;
   padding-bottom: 40%;
@@ -457,13 +457,13 @@ html,body{
 }
 
 .post-content blockquote{
-  margin: 1.6em -75px;
-  padding: 10px 70px;
+  margin: 1.6em -15px 1.6em -15px;
+  padding: 10px 26px;
 }
 
 .post-content .highlight {
   margin: 1.6em -75px;
-  padding: 30px;
+  padding: 21px 30px 21px 30px;
 }
 
 @media (max-width:1024px){
@@ -500,8 +500,10 @@ html,body{
 
 
 .post-foot{
+    /* width: 90%; */
     padding: 9px 0;
     border-top: 1px solid #ddd;
+    margin-left: 21px;
 }
 
 @media (max-width: 768px){
@@ -724,7 +726,7 @@ a.post-nav-link-wrap:hover{
 /* 保证块/段落之间的空白隔行 */
 .typo p, .typo pre, .typo ul, .typo dl, .typo form, .typo hr, .typo table,
 .typo-p, .typo-pre, .typo-ul, .typo-ol, .typo-dl, .typo-form, .typo-hr, .typo-table, blockquote{
-  margin-bottom:1.8em;
+  margin-bottom: 1.8em;
 }
 
 .typo ol{
@@ -816,7 +818,7 @@ h1, h2, h3, h4, h5, h6{
 .typo table th, .typo table td, .typo-table th, .typo-table td .typo table caption{
   border:1px solid #ddd;
   padding:0.5em 1em;
-  color:#666;
+  color: rgba(236, 236, 236, 0.74);
 }
 
 .typo table th, .typo-table th{
@@ -909,7 +911,7 @@ text-align: start;
     display : fixed ;
     position : fixed ;
     right: 6%;
-    bottom : 12% ; 
+    bottom: 18%; 
     padding: 9px 10px; 
     font-size : 20px ;
     background: #ADADAD;

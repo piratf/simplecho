@@ -1,0 +1,65 @@
+.baseBlock{
+    position:relative;
+    overflow:hidden;
+}
+
+.postBlockIn{
+    padding: 25px 15px;
+    background-color:#FFF;
+    box-shadow:inset 8px 1px 27px 16px #00061C;
+    -moz-box-shadow:inset 8px 1px 27px 16px #00061C;
+    -webkit-box-shadow: inset 0px 0px 27px 16px #00061C;
+}
+
+.highlightBlockIn{
+    padding:10px 15px;
+    background-color:#FFF;
+    box-shadow:inset 8px 1px 27px 16px #00061C;
+    -moz-box-shadow:inset 8px 1px 27px 16px #00061C;
+    -webkit-box-shadow:inset 8px 1px 27px 16px #00061C;
+}
+
+.indexBlockIn{
+    padding: 11px 15px 21px 13px;
+    background-color:#FFF;
+    box-shadow:inset 3px 0px 26px 12px #00061C;
+    -moz-box-shadow:inset 3px 0px 26px 12px #00061C;
+    -webkit-box-shadow: inset 3px 0px 26px 12px #00061C;
+}
+
+.gotopBlockIn{
+    height: 33px;
+    /*-moz-border-radius: 50px 20px 30px 40px / 50px 20px 30px 40px;  */
+    /*-webkit-border-radius: 10px 20px 30px 40px / 10px 20px 30px 40px;  */
+    /*border-radius: 50px 50px 30px 40px / 100px 100px 30px 40px;  */
+    padding: 11px 15px 21px 13px;
+    background-color:#FFF;
+    box-shadow:inset 0px -2px 42px 10px #00061C;
+    -moz-box-shadow:inset 0px -2px 42px 10px #00061C;
+    -webkit-box-shadow: inset 0px -2px 42px 10px #00061C;
+}
+
+.discussBlockIn{
+    /*-moz-border-radius: 50px 20px 30px 40px / 50px 20px 30px 40px;  */
+    /*-webkit-border-radius: 10px 20px 30px 40px / 10px 20px 30px 40px;  */
+    /*border-radius: 50px 50px 30px 40px / 100px 100px 30px 40px;  */
+    box-shadow: inset 0px 2px 25px #5AE0FF;
+    padding: 15px 34px 18px 27px;
+}
+
+.ieShadow{
+    _width:220px;
+    _height:220px;
+    filter:progid:DXImageTransform.Microsoft.Blur(pixelradius=20);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Blur(pixelradius=20)";
+    background-color:#fff\9;
+    position:absolute;
+    top:10px;
+    left:10px;
+    bottom:-10px;
+    right:-10px;
+}
+.content{
+    position:relative;
+    z-index:1;
+}

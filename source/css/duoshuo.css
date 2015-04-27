@@ -1,0 +1,13 @@
+#ds-thread #ds-reset li.ds-post-placeholder {
+    color: #BA8888;
+}
+
+#ds-thread #ds-reset li.ds-tab a {
+    text-shadow: none;
+    -webkit-border-radius: none;
+    border-radius: none;
+}
+
+#ds-thread #ds-reset a {
+    color: #38BAE8;
+}
