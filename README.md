@@ -3,12 +3,14 @@ Simplecho
 Theme for [Hexo](http://hexo.io). 
 
 Demo: http://piratf.ml/
+可能用另一个Dark版本
+git@github.com:piratf/simplechoDark.git
 
 ##Install
 修改 Hexo 根目录下 _config.yml 里面的 `theme` 为 `simplecho`
 
 ~~~
-git clone https://github.com/Garwih/hexo-theme-simplecho.git themes/simplecho
+git clone git@github.com:piratf/simplecho.git themes/simplecho
 ~~~
 
 ##Update
