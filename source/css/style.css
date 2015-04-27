@@ -1,28 +1,28 @@
-/* alice.base 样式模块 */
+/* alice.base Ã¦Â Â·Ã¥Â¼ÂÃ¦Â¨Â¡Ã¥Ââ€” */
 
-/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+/* Ã©ËœÂ²Ã¦Â­Â¢Ã§â€Â¨Ã¦Ë†Â·Ã¨â€¡ÂªÃ¥Â®Å¡Ã¤Â¹â€°Ã¨Æ’Å’Ã¦â„¢Â¯Ã©Â¢Å“Ã¨â€°Â²Ã¥Â¯Â¹Ã§Â½â€˜Ã©Â¡ÂµÃ§Å¡â€žÃ¥Â½Â±Ã¥â€œÂÃ¯Â¼Å’Ã¦Â·Â»Ã¥Å Â Ã¨Â®Â©Ã§â€Â¨Ã¦Ë†Â·Ã¥ÂÂ¯Ã¤Â»Â¥Ã¨â€¡ÂªÃ¥Â®Å¡Ã¤Â¹â€°Ã¥Â­â€”Ã¤Â½â€œ */
 html {
     color:#000;background:#fff;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
 
-/* 内外边距通常让各个浏览器样式的表现位置不同 */
+/* Ã¥â€ â€¦Ã¥Â¤â€“Ã¨Â¾Â¹Ã¨Â·ÂÃ©â‚¬Å¡Ã¥Â¸Â¸Ã¨Â®Â©Ã¥Ââ€žÃ¤Â¸ÂªÃ¦ÂµÂÃ¨Â§Ë†Ã¥â„¢Â¨Ã¦Â Â·Ã¥Â¼ÂÃ§Å¡â€žÃ¨Â¡Â¨Ã§Å½Â°Ã¤Â½ÂÃ§Â½Â®Ã¤Â¸ÂÃ¥ÂÅ’ */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     margin:0;padding:0;
 }
 
-/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+/* Ã©â€¡ÂÃ¨Â®Â¾ HTML5 Ã¦Â â€¡Ã§Â­Â¾, IE Ã©Å“â‚¬Ã¨Â¦ÂÃ¥Å“Â¨ js Ã¤Â¸Â­ createElement(TAG) */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
     display:block;
 }
 
-/* HTML5 媒体文件跟 img 保持一致 */
+/* HTML5 Ã¥Âªâ€™Ã¤Â½â€œÃ¦â€“â€¡Ã¤Â»Â¶Ã¨Â·Å¸ img Ã¤Â¿ÂÃ¦Å’ÂÃ¤Â¸â‚¬Ã¨â€¡Â´ */
 audio,canvas,video {
     display: inline-block;*display: inline;*zoom: 1;
 }
 
-/* 要注意表单元素并不继承父级 font 的问题 */
+/* Ã¨Â¦ÂÃ¦Â³Â¨Ã¦â€žÂÃ¨Â¡Â¨Ã¥Ââ€¢Ã¥â€¦Æ’Ã§Â´Â Ã¥Â¹Â¶Ã¤Â¸ÂÃ§Â»Â§Ã¦â€°Â¿Ã§Ë†Â¶Ã§ÂºÂ§ font Ã§Å¡â€žÃ©â€”Â®Ã©Â¢Ëœ */
 body,button,input,select,textarea {
     font:12px/1.5 tahoma,arial,"Hiragino Sans GB",\5b8b\4f53;
 }
@@ -30,32 +30,32 @@ input,select,textarea {
     font-size:100%;
 }
 
-/* 去掉各Table  cell 的边距并让其边重合 */
+/* Ã¥Å½Â»Ã¦Å½â€°Ã¥Ââ€žTable  cell Ã§Å¡â€žÃ¨Â¾Â¹Ã¨Â·ÂÃ¥Â¹Â¶Ã¨Â®Â©Ã¥â€¦Â¶Ã¨Â¾Â¹Ã©â€¡ÂÃ¥ÂË† */
 table {
     border-collapse:collapse;border-spacing:0;
 }
 
-/* IE bug fixed: th 不继承 text-align*/
+/* IE bug fixed: th Ã¤Â¸ÂÃ§Â»Â§Ã¦â€°Â¿ text-align*/
 th {
     text-align:inherit;
 }
 
-/* 去除默认边框 */
+/* Ã¥Å½Â»Ã©â„¢Â¤Ã©Â»ËœÃ¨Â®Â¤Ã¨Â¾Â¹Ã¦Â¡â€  */
 fieldset,img {
     border:0;
 }
 
-/* ie6 7 8(q) bug 显示为行内表现 */
+/* ie6 7 8(q) bug Ã¦ËœÂ¾Ã§Â¤ÂºÃ¤Â¸ÂºÃ¨Â¡Å’Ã¥â€ â€¦Ã¨Â¡Â¨Ã§Å½Â° */
 iframe {
     display:block;
 }
 
-/* 去掉 firefox 下此元素的边框 */
+/* Ã¥Å½Â»Ã¦Å½â€° firefox Ã¤Â¸â€¹Ã¦Â­Â¤Ã¥â€¦Æ’Ã§Â´Â Ã§Å¡â€žÃ¨Â¾Â¹Ã¦Â¡â€  */
 abbr,acronym {
     border:0;font-variant:normal;
 }
 
-/* 一致的 del 样式 */
+/* Ã¤Â¸â‚¬Ã¨â€¡Â´Ã§Å¡â€ž del Ã¦Â Â·Ã¥Â¼Â */
 del {
     text-decoration:line-through;
 }
@@ -65,17 +65,17 @@ address,caption,cite,code,dfn,em,th,var {
     font-weight:500;
 }
 
-/* 去掉列表前的标识, li 会继承 */
+/* Ã¥Å½Â»Ã¦Å½â€°Ã¥Ë†â€”Ã¨Â¡Â¨Ã¥â€°ÂÃ§Å¡â€žÃ¦Â â€¡Ã¨Â¯â€ , li Ã¤Â¼Å¡Ã§Â»Â§Ã¦â€°Â¿ */
 ol,ul {
     list-style:none;
 }
 
-/* 对齐是排版最重要的因素, 别让什么都居中 */
+/* Ã¥Â¯Â¹Ã©Â½ÂÃ¦ËœÂ¯Ã¦Å½â€™Ã§â€°Ë†Ã¦Å“â‚¬Ã©â€¡ÂÃ¨Â¦ÂÃ§Å¡â€žÃ¥â€ºÂ Ã§Â´Â , Ã¥Ë†Â«Ã¨Â®Â©Ã¤Â»â‚¬Ã¤Â¹Ë†Ã©Æ’Â½Ã¥Â±â€¦Ã¤Â¸Â­ */
 caption,th {
     text-align:left;
 }
 
-/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
+/* Ã¦ÂÂ¥Ã¨â€¡Âªyahoo, Ã¨Â®Â©Ã¦Â â€¡Ã©Â¢ËœÃ©Æ’Â½Ã¨â€¡ÂªÃ¥Â®Å¡Ã¤Â¹â€°, Ã©â‚¬â€šÃ¥Âºâ€Ã¥Â¤Å¡Ã¤Â¸ÂªÃ§Â³Â»Ã§Â»Å¸Ã¥Âºâ€Ã§â€Â¨ */
 h1,h2,h3,h4,h5,h6 {
     font-size:100%;
     font-weight:500;
@@ -85,30 +85,30 @@ q:before,q:after {
     content:'';
 }
 
-/* 统一上标和下标 */
+/* Ã§Â»Å¸Ã¤Â¸â‚¬Ã¤Â¸Å Ã¦Â â€¡Ã¥â€™Å’Ã¤Â¸â€¹Ã¦Â â€¡ */
 sub, sup {
     font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;
 }
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 
-/* 正常链接 未访问 */
+/* Ã¦Â­Â£Ã¥Â¸Â¸Ã©â€œÂ¾Ã¦Å½Â¥ Ã¦Å“ÂªÃ¨Â®Â¿Ã©â€”Â® */
 a:link {
     color: #08c;
 }
 
-/* 鼠标悬停 */
+/* Ã©Â¼Â Ã¦Â â€¡Ã¦â€šÂ¬Ã¥ÂÅ“ */
 a:hover {
     color: #08c;
     text-decoration: underline;
 }
 
-/* 默认不显示下划线，保持页面简洁 */
+/* Ã©Â»ËœÃ¨Â®Â¤Ã¤Â¸ÂÃ¦ËœÂ¾Ã§Â¤ÂºÃ¤Â¸â€¹Ã¥Ë†â€™Ã§ÂºÂ¿Ã¯Â¼Å’Ã¤Â¿ÂÃ¦Å’ÂÃ©Â¡ÂµÃ©ÂÂ¢Ã§Â®â‚¬Ã¦Â´Â */
 ins,a {
     text-decoration:none;
 }
 
-/* 代码字体 */
+/* Ã¤Â»Â£Ã§Â ÂÃ¥Â­â€”Ã¤Â½â€œ */
 code,
 kbd,
 pre,
@@ -117,7 +117,7 @@ samp {
     font-size: 1em;
 }
 
-/* 清理浮动 */
+/* Ã¦Â¸â€¦Ã§Ââ€ Ã¦ÂµÂ®Ã¥Å Â¨ */
 .clear:after {
     visibility:hidden;
     display:block;
@@ -130,12 +130,12 @@ samp {
     zoom:1; /* for IE6 IE7 */
 }
 
-/* 隐藏, 通常用来与 JS 配合 */
+/* Ã©Å¡ÂÃ¨â€”Â, Ã©â‚¬Å¡Ã¥Â¸Â¸Ã§â€Â¨Ã¦ÂÂ¥Ã¤Â¸Å½ JS Ã©â€¦ÂÃ¥ÂË† */
 body .fn-hide {
     display:none;
 }
 
-/* 设置内联, 减少浮动带来的bug */
+/* Ã¨Â®Â¾Ã§Â½Â®Ã¥â€ â€¦Ã¨Ââ€, Ã¥â€¡ÂÃ¥Â°â€˜Ã¦ÂµÂ®Ã¥Å Â¨Ã¥Â¸Â¦Ã¦ÂÂ¥Ã§Å¡â€žbug */
 .fl, .fr {
     display:inline;
 }
@@ -146,14 +146,14 @@ body .fn-hide {
     float:right;
 }
 
-/* 单行文字溢出时出现省略号，需设定宽度 */ 
+/* Ã¥Ââ€¢Ã¨Â¡Å’Ã¦â€“â€¡Ã¥Â­â€”Ã¦ÂºÂ¢Ã¥â€¡ÂºÃ¦â€”Â¶Ã¥â€¡ÂºÃ§Å½Â°Ã§Å“ÂÃ§â€¢Â¥Ã¥ÂÂ·Ã¯Â¼Å’Ã©Å“â‚¬Ã¨Â®Â¾Ã¥Â®Å¡Ã¥Â®Â½Ã¥ÂºÂ¦ */ 
 .fn-text-overflow {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
-/* 简单的渐变 */
+/* Ã§Â®â‚¬Ã¥Ââ€¢Ã§Å¡â€žÃ¦Â¸ÂÃ¥ÂËœ */
 .fn-linear {
     background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f1f1f1));
     background: -moz-linear-gradient(top, #fcfcfc, #f1f1f1);
@@ -163,7 +163,7 @@ body .fn-hide {
     background: linear-gradient(to bottom, #fcfcfc, #f1f1f1);
 }
 
-/* 浅色的渐变 */
+/* Ã¦Âµâ€¦Ã¨â€°Â²Ã§Å¡â€žÃ¦Â¸ÂÃ¥ÂËœ */
 .fn-linear-light {
     background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f9f9f9));
     background: -moz-linear-gradient(top, #fcfcfc, #f9f9f9);
@@ -173,7 +173,7 @@ body .fn-hide {
     background: linear-gradient(to bottom, #fcfcfc, #f9f9f9);
 }
 
-/* 人民币符号 */
+/* Ã¤ÂºÂºÃ¦Â°â€˜Ã¥Â¸ÂÃ§Â¬Â¦Ã¥ÂÂ· */
 .fn-rmb {
     font-family: arial;
     font-style: normal;
@@ -181,24 +181,24 @@ body .fn-hide {
 }
 
 
-/* chrome 下字体过小的问题 */
+/* chrome Ã¤Â¸â€¹Ã¥Â­â€”Ã¤Â½â€œÃ¨Â¿â€¡Ã¥Â°ÂÃ§Å¡â€žÃ©â€”Â®Ã©Â¢Ëœ */
 .fn-webkit-adjust {
     -webkit-text-size-adjust: none;
 }
 
-/* 一致化 horizontal rule */
+/* Ã¤Â¸â‚¬Ã¨â€¡Â´Ã¥Å’â€“ horizontal rule */
 hr{
   border:none;
   border-bottom:1px solid #cfcfcf;
-  margin-bottom:10px;
+  margin-bottom: 0px;
   *color:pink; *filter:chroma(color=pink);
-  height:10px;
+  height: 10px;
   *margin:-7px 0 2px;
 }
 
-/* 底部印刷体、版本等标记 */
+/* Ã¥Âºâ€¢Ã©Æ’Â¨Ã¥ÂÂ°Ã¥Ë†Â·Ã¤Â½â€œÃ£â‚¬ÂÃ§â€°Ë†Ã¦Å“Â¬Ã§Â­â€°Ã¦Â â€¡Ã¨Â®Â° */
 small, .typo-small,
-  /* 图片说明 */
+  /* Ã¥â€ºÂ¾Ã§â€°â€¡Ã¨Â¯Â´Ã¦ËœÅ½ */
 figcaption{
   font-size:0.9em;
   color:#888;
@@ -206,13 +206,13 @@ figcaption{
 
 strong, b{font-weight:bold;color:#000;}
 
-/* Firefox 以外，元素没有下划线，需添加 */
+/* Firefox Ã¤Â»Â¥Ã¥Â¤â€“Ã¯Â¼Å’Ã¥â€¦Æ’Ã§Â´Â Ã¦Â²Â¡Ã¦Å“â€°Ã¤Â¸â€¹Ã¥Ë†â€™Ã§ÂºÂ¿Ã¯Â¼Å’Ã©Å“â‚¬Ã¦Â·Â»Ã¥Å Â  */
 acronym, abbr{
   border-bottom:1px dotted;
   font-variant:normal;
 }
 
-/* 添加鼠标问号，进一步确保应用的语义是正确的（要知道，交互他们也有洁癖，如果你不去掉，那得多花点口舌） */
+/* Ã¦Â·Â»Ã¥Å Â Ã©Â¼Â Ã¦Â â€¡Ã©â€”Â®Ã¥ÂÂ·Ã¯Â¼Å’Ã¨Â¿â€ºÃ¤Â¸â‚¬Ã¦Â­Â¥Ã§Â¡Â®Ã¤Â¿ÂÃ¥Âºâ€Ã§â€Â¨Ã§Å¡â€žÃ¨Â¯Â­Ã¤Â¹â€°Ã¦ËœÂ¯Ã¦Â­Â£Ã§Â¡Â®Ã§Å¡â€žÃ¯Â¼Ë†Ã¨Â¦ÂÃ§Å¸Â¥Ã©Ââ€œÃ¯Â¼Å’Ã¤ÂºÂ¤Ã¤Âºâ€™Ã¤Â»â€“Ã¤Â»Â¬Ã¤Â¹Å¸Ã¦Å“â€°Ã¦Â´ÂÃ§â„¢â€“Ã¯Â¼Å’Ã¥Â¦â€šÃ¦Å¾Å“Ã¤Â½Â Ã¤Â¸ÂÃ¥Å½Â»Ã¦Å½â€°Ã¯Â¼Å’Ã©â€šÂ£Ã¥Â¾â€”Ã¥Â¤Å¡Ã¨Å Â±Ã§â€šÂ¹Ã¥ÂÂ£Ã¨Ë†Å’Ã¯Â¼â€° */
 abbr{
   cursor:help;
 }
@@ -586,12 +586,16 @@ a.post-nav-link-wrap{
     font-size: 1.4em;
     font-weight: lighter;
     color: #999;
+    transition-property: color;    
+    transition-duration: 0.3s;    transition-timing-function: ease-out;
 }
 
 .page-nav a:hover,
 a.post-nav-link-wrap:hover{
-    color: #666;
+    color: #1FB4D4;
     text-decoration: none;
+    transition-property: color;    
+    transition-duration: 0.5s;    transition-timing-function: ease-out;
 }
 
 #comments{
@@ -652,7 +656,7 @@ a.post-nav-link-wrap:hover{
 #footer{
     color: #999;
     line-height: 21px;
-    background-color: #333;
+    background-color: #00061C;
     padding: 13px 0;
 }
 
@@ -720,10 +724,10 @@ a.post-nav-link-wrap:hover{
 
 /* Typo */
 
-/* 提供 serif 版本的字体设置: iOS 下中文自动 fallback 到 sans-serif */
+/* Ã¦ÂÂÃ¤Â¾â€º serif Ã§â€°Ë†Ã¦Å“Â¬Ã§Å¡â€žÃ¥Â­â€”Ã¤Â½â€œÃ¨Â®Â¾Ã§Â½Â®: iOS Ã¤Â¸â€¹Ã¤Â¸Â­Ã¦â€“â€¡Ã¨â€¡ÂªÃ¥Å Â¨ fallback Ã¥Ë†Â° sans-serif */
 .serif{ font-family:Palatino, Optima, Georgia, serif; }
 
-/* 保证块/段落之间的空白隔行 */
+/* Ã¤Â¿ÂÃ¨Â¯ÂÃ¥Ââ€”/Ã¦Â®ÂµÃ¨ÂÂ½Ã¤Â¹â€¹Ã©â€”Â´Ã§Å¡â€žÃ§Â©ÂºÃ§â„¢Â½Ã©Å¡â€Ã¨Â¡Å’ */
 .typo p, .typo pre, .typo ul, .typo dl, .typo form, .typo hr, .typo table,
 .typo-p, .typo-pre, .typo-ul, .typo-ol, .typo-dl, .typo-form, .typo-hr, .typo-table, blockquote{
   margin-bottom: 1.8em;
@@ -766,7 +770,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Source Code Pro', Consolas, 'Liberation Mono', Courier, monospace, serif;
 }
 
-/* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
+/* Ã¦Â â€¡Ã©Â¢ËœÃ¥Âºâ€Ã¨Â¯Â¥Ã¦â€ºÂ´Ã¨Â´Â´Ã§Â´Â§Ã¥â€ â€¦Ã¥Â®Â¹Ã¯Â¼Å’Ã¥Â¹Â¶Ã¤Â¸Å½Ã¥â€¦Â¶Ã¤Â»â€“Ã¥Ââ€”Ã¥Å’ÂºÃ¥Ë†â€ Ã¯Â¼Å’margin Ã¥â‚¬Â¼Ã¨Â¦ÂÃ§â€ºÂ¸Ã¥Âºâ€Ã¥ÂÅ¡Ã¤Â¼ËœÃ¥Å’â€“ */
 .typo h1, .typo h2, .typo h3, .typo h4, .typo h5, .typo h6,
 .typo-h1, .typo-h2, .typo-h3, .typo-h4, .typo-h5, .typo-h6{
   margin-bottom:0.4em;
@@ -793,7 +797,7 @@ h1, h2, h3, h4, h5, h6{
   font-size:1.2em;
 }
 
-/* 在文章中，应该还原 ul 和 ol 的样式 */
+/* Ã¥Å“Â¨Ã¦â€“â€¡Ã§Â«Â Ã¤Â¸Â­Ã¯Â¼Å’Ã¥Âºâ€Ã¨Â¯Â¥Ã¨Â¿ËœÃ¥Å½Å¸ ul Ã¥â€™Å’ ol Ã§Å¡â€žÃ¦Â Â·Ã¥Â¼Â */
 .typo ul, .typo-ul{
   margin-left:1.3em;
   list-style:disc;
@@ -814,7 +818,7 @@ h1, h2, h3, h4, h5, h6{
   list-style:circle;
 }
 
-/* 同 ul/ol，在文章中应用 table 基本格式 */
+/* Ã¥ÂÅ’ ul/olÃ¯Â¼Å’Ã¥Å“Â¨Ã¦â€“â€¡Ã§Â«Â Ã¤Â¸Â­Ã¥Âºâ€Ã§â€Â¨ table Ã¥Å¸ÂºÃ¦Å“Â¬Ã¦Â Â¼Ã¥Â¼Â */
 .typo table th, .typo table td, .typo-table th, .typo-table td .typo table caption{
   border:1px solid #ddd;
   padding:0.5em 1em;
@@ -833,13 +837,13 @@ h1, h2, h3, h4, h5, h6{
   border-bottom:none;
 }
 
-/* 去除 webkit 中 input 和 textarea 的默认样式  */
+/* Ã¥Å½Â»Ã©â„¢Â¤ webkit Ã¤Â¸Â­ input Ã¥â€™Å’ textarea Ã§Å¡â€žÃ©Â»ËœÃ¨Â®Â¤Ã¦Â Â·Ã¥Â¼Â  */
 .typo-input, .typo-textarea{
   -webkit-appearance:none;
   border-radius:0;
 }
 
-/* 高亮选中 */
+/* Ã©Â«ËœÃ¤ÂºÂ®Ã©â‚¬â€°Ã¤Â¸Â­ */
 ::-moz-selection{
   background:#08c;
   color:#fff;
@@ -855,7 +859,7 @@ h1, h2, h3, h4, h5, h6{
   font-style: italic;
 }
 
-/* 着重号，只能在少量（少于100个字符）且全是全角字符的情况下使用 */
+/* Ã§Ââ‚¬Ã©â€¡ÂÃ¥ÂÂ·Ã¯Â¼Å’Ã¥ÂÂªÃ¨Æ’Â½Ã¥Å“Â¨Ã¥Â°â€˜Ã©â€¡ÂÃ¯Â¼Ë†Ã¥Â°â€˜Ã¤ÂºÅ½100Ã¤Â¸ÂªÃ¥Â­â€”Ã§Â¬Â¦Ã¯Â¼â€°Ã¤Â¸â€Ã¥â€¦Â¨Ã¦ËœÂ¯Ã¥â€¦Â¨Ã¨Â§â€™Ã¥Â­â€”Ã§Â¬Â¦Ã§Å¡â€žÃ¦Æ’â€¦Ã¥â€ ÂµÃ¤Â¸â€¹Ã¤Â½Â¿Ã§â€Â¨ */
 .typo-em {
   position: relative;
 }
@@ -865,7 +869,7 @@ h1, h2, h3, h4, h5, h6{
   left: 0;
   width: 100%;
   overflow: hidden;
-  content: "・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・";
+  content: "Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»Ã£Æ’Â»";
 }
 
 /* Responsive images */
@@ -890,8 +894,8 @@ h1, h2, h3, h4, h5, h6{
   height: 25px;
 }
 
-/* style="-webkit-writing-mode: vertical-rl;" ruby标签竖行*/
-/*direction:rtl;unicode-bidi:bidi-override; 文字逆序*/
+/* style="-webkit-writing-mode: vertical-rl;" rubyÃ¦Â â€¡Ã§Â­Â¾Ã§Â«â€“Ã¨Â¡Å’*/
+/*direction:rtl;unicode-bidi:bidi-override; Ã¦â€“â€¡Ã¥Â­â€”Ã©â‚¬â€ Ã¥ÂºÂ*/
 
 ruby > rp {
 display: none;
@@ -917,4 +921,12 @@ text-align: start;
     background: #ADADAD;
     color : white ;
     cursor : pointer ;
+    transition-property: background-color;    
+    transition-duration: 0.3s;    transition-timing-function: ease-out;
+}
+
+#gotop:hover {
+    background-color: #00061C;
+    transition-property: background-color;    
+    transition-duration: 0.3s;    transition-timing-function: ease-out;
 }
